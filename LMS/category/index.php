@@ -46,7 +46,9 @@ $statement = $connection->query("SELECT * FROM categories");
                     </a>
                 </td>
                 <td>
-                    <button>Delete</button>
+                    <a href="deletecategory.php?id=<?php echo $data["id"] ?>">
+                        <button>Delete</button>
+                    </a>
                 </td>
             </tr>
 

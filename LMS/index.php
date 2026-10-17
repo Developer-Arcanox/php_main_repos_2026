@@ -9,12 +9,14 @@
 
 <body>
     <a href="category/">
-        <button>Add Category</button>
+        <button>Manage Category</button>
     </a>
 
     <br><br>
 
-    <button>Add Book</button>
+    <a href="addbookform.php">
+        <button>Add Book</button>
+    </a>
 
     <br><br>
 
@@ -35,6 +37,8 @@
             <td>Education</td>
             <td>
                 <button>Update </button>
+            </td>
+            <td>
                 <button>Delete</button>
             </td>
         </tr>
